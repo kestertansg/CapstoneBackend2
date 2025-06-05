@@ -1,0 +1,39 @@
+{
+  "properties": [
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret key for JWT token generation."
+    },
+    {
+      "name": "app.jwt.expiration-ms",
+      "type": "java.lang.Long",
+      "description": "JWT token expiration time in milliseconds.",
+      "defaultValue": 86400000
+    },
+    {
+      "name": "lms.max-books-per-member",
+      "type": "java.lang.Integer",
+      "description": "Maximum books a member can borrow simultaneously.",
+      "defaultValue": 3
+    },
+    {
+      "name": "lms.loan-duration-days",
+      "type": "java.lang.Integer",
+      "description": "Default loan duration in days.",
+      "defaultValue": 14
+    },
+    {
+      "name": "lms.fine-per-day",
+      "type": "java.lang.Double",
+      "description": "Fine amount per day for overdue books.",
+      "defaultValue": 0.5
+    },
+    {
+      "name": "lms.max-fine-per-book",
+      "type": "java.lang.Double",
+      "description": "Maximum fine amount per book.",
+      "defaultValue": 20.0
+    }
+  ]
+}
